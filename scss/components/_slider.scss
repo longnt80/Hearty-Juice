@@ -1,0 +1,61 @@
+//**
+// Logo Styles
+//**
+.banner {
+	height: 50vmin;
+	background: transparent url("../images/banner002.jpg") no-repeat center 70%;
+	background-size: cover;
+
+	.overlay {
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.marketing-text {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+
+	h2 {
+		text-align: center;
+		color: #fff;
+		font-size: 1.5em;
+		position: relative;
+		top: 30%;
+		margin: 0;
+	}
+}
+
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+// @include responsive($small-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+@include mobilefirst($big-break) {
+	.banner {
+		height: 70vmin;
+	}
+
+}
+
+@include mobilefirst($small-break) {
+
+	.banner {
+
+		h2 {
+			text-align: center;
+			color: #fff;
+			font-size: 4em;
+			top: 40%;
+		}
+	}
+
+}

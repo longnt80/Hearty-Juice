@@ -1,0 +1,55 @@
+.main-content {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.spacer {
+	padding: 0.8em;
+}
+
+.five-cols .span2 {
+
+	// max-width: 80%;
+	// margin: 0 auto 20px;
+
+	span {
+
+		img {
+			max-width: 100%;
+    			height: auto;
+    		}
+	}
+}
+
+
+
+@include mobilefirst($small-break) {
+	
+	.main-content {
+		max-width: 100%;	
+	}
+
+	.spacer {
+		padding: 3em;
+	}
+
+	.group {
+		margin: 0;
+	}
+	.five-cols .span2 {
+		flex-basis: 20%;
+		max-width: 20%;
+		margin: 0;
+		padding: 0 10px;
+
+		span {
+			display: block;
+
+			img {
+				max-width: 100%;
+	    			height: auto;
+	    		}
+		}
+	}
+
+}
