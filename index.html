@@ -11,6 +11,8 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"><!-- http://michalsnik.github.io/aos/-->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -53,7 +55,7 @@
             <div class="banner">
                 <div class="overlay">
                     <div class="marketing-text">
-                            <h2>Healthy Organic Juice</h2>
+                            <h2 data-aos="fade-up">Healthy Organic Juice</h2>
                     </div>
                 </div> 
 
@@ -65,7 +67,7 @@
             
             <div class="spacer"></div><!-- horizontal space -->
 
-            <div class="container">
+            <div class="container" data-aos="fade" data-aos-offset="200" data-aos-duration="800">
                 <h2 class="text-center">How it's made</h2>
                 <div class="group five-cols text-center">
                         <div class="span2">
@@ -91,7 +93,7 @@
 
             <div class="our-difference">
 
-                <div class="container small">
+                <div class="container small"  data-aos="fade-left" data-aos-offset="400">
                     <h2 class="text-center">Your Health is Our Focus</h2>
                     <div class="span12">
                         <p>As a green juice rather than a fruit juice , Hearty Juice comes chock-full of health boosts and benefits.</p>
@@ -109,8 +111,8 @@
                 <div class="container">
                     <h2 class="text-center">The Hearty Promise</h2>
                     <div class="group">
-                            <div class="span6"><img src="images/green-juice.jpg"></div>
-                            <div class="span6">
+                            <div class="span6"  data-aos="fade-right"><img src="images/green-juice.jpg"></div>
+                            <div class="span6"  data-aos="fade-left">
                                 <p>Here at Hearty Juice, we promise to:</p>
                                 <ul>
                                         <li>Only serve deliciously green juice</li>
@@ -141,9 +143,14 @@
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+
+        <script>
+            AOS.init();
+        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
