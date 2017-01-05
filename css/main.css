@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Quicksand:500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Quicksand:500,400|Pacifico);
 .clearfix,
 .group {
   zoom: 1; }
@@ -165,7 +165,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
   color: #444; }
 
@@ -207,13 +207,13 @@ h3 {
 h4 {
   font-size: 1.8em;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 0 0.8em; }
 
 h5 {
   font-size: 1.6em;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 0 0.8em; }
 
 p {
@@ -261,6 +261,7 @@ nav {
   overflow: hidden;
   font-family: "Quicksand", sans-serif;
   font-size: 0.8em;
+  font-weight: 500;
   position: relative;
   z-index: 1000; }
   nav a {
@@ -303,7 +304,9 @@ a.mobile-toggle {
   border: none;
   outline-color: transparent;
   padding: 0.4em;
-  text-decoration: none; }
+  text-decoration: none;
+  position: relative;
+  z-index: 900; }
 
 a.mobile-toggle.grey {
   background-color: #aaa; }
@@ -317,7 +320,7 @@ a.mobile-toggle.grey {
   /* can be made to 0 */
   width: 100%;
   height: 100%;
-  z-index: 900;
+  z-index: 800;
   top: 0;
   left: 0; }
 
@@ -445,10 +448,12 @@ hr {
   .banner h2 {
     text-align: center;
     color: #fff;
+    font-family: Pacifico, sans-serif;
     font-size: 1.5em;
     position: relative;
     top: 30%;
-    margin: 0; }
+    margin: 0;
+    font-weight: 500; }
 
 @media screen and (min-width: 780px) {
   .banner {
@@ -459,6 +464,10 @@ hr {
     color: #fff;
     font-size: 4em;
     top: 40%; } }
+@media screen and (min-width: 1440px) {
+  .banner h2 {
+    font-size: 6em;
+    top: 35%; } }
 footer {
   margin: 50px 0px 0px;
   border-top: 1px solid #aaa;

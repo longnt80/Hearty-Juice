@@ -33,6 +33,7 @@ $(document).ready(function() {
 
        $("#menu-overlay").on("click",function(){
          $("ul.open").removeClass('open');
+         // $("nav.show").removeClass('show');
          $(this).hide();
    
    });

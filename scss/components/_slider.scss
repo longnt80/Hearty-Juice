@@ -22,10 +22,12 @@
 	h2 {
 		text-align: center;
 		color: #fff;
+		font-family: Pacifico, sans-serif;
 		font-size: 1.5em;
 		position: relative;
 		top: 30%;
 		margin: 0;
+		font-weight: 500;
 	}
 }
 
@@ -55,6 +57,18 @@
 			color: #fff;
 			font-size: 4em;
 			top: 40%;
+		}
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.banner {
+
+		h2 {
+			font-size: 6em;
+			top: 35%;
 		}
 	}
 
