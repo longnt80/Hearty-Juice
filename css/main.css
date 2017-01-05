@@ -451,23 +451,22 @@ hr {
     font-family: Pacifico, sans-serif;
     font-size: 1.5em;
     position: relative;
-    top: 30%;
     margin: 0;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 50vmin; }
 
 @media screen and (min-width: 780px) {
   .banner {
-    height: 70vmin; } }
+    height: 50vmin; } }
 @media screen and (min-width: 480px) {
   .banner h2 {
     text-align: center;
     color: #fff;
     font-size: 4em;
-    top: 40%; } }
+    line-height: 50vmin; } }
 @media screen and (min-width: 1440px) {
   .banner h2 {
-    font-size: 6em;
-    top: 35%; } }
+    font-size: 6em; } }
 footer {
   margin: 50px 0px 0px;
   border-top: 1px solid #aaa;
@@ -494,9 +493,6 @@ footer {
   width: 100%;
   height: auto; }
 
-@media screen and (min-width: 480px) {
-  .banner {
-    height: 70vmin; } }
 .main-content {
   max-width: 80%;
   margin: 0 auto; }

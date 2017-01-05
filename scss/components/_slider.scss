@@ -25,9 +25,9 @@
 		font-family: Pacifico, sans-serif;
 		font-size: 1.5em;
 		position: relative;
-		top: 30%;
 		margin: 0;
 		font-weight: 500;
+		line-height: 50vmin;
 	}
 }
 
@@ -43,7 +43,7 @@
 // }
 @include mobilefirst($big-break) {
 	.banner {
-		height: 70vmin;
+		height: 50vmin;
 	}
 
 }
@@ -56,7 +56,8 @@
 			text-align: center;
 			color: #fff;
 			font-size: 4em;
-			top: 40%;
+			// top: 40%;
+			line-height: 50vmin;
 		}
 	}
 
@@ -68,7 +69,6 @@
 
 		h2 {
 			font-size: 6em;
-			top: 35%;
 		}
 	}
 

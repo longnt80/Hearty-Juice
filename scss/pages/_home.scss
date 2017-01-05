@@ -17,8 +17,3 @@
 	}
 }
 
-@include mobilefirst($small-break) {
-	.banner {
-		height: 70vmin;
-	}
-}
