@@ -15,8 +15,9 @@ $(document).ready(function() {
     // e.preventDefault();
     $(this)
         .find('ul')
-        .toggleClass('open');
-    $(this)
+        .toggleClass('open')
+    // $(this)
+        .closest('li')
         .siblings()  // Turn off othe sub menu
         .find('ul')
         .removeClass('open');
@@ -31,7 +32,7 @@ $(document).ready(function() {
       });
 
        $("#menu-overlay").on("click",function(){
-         $("ul.open").removeClass('open');
+         // $("ul.open").removeClass('open');
          // $("nav.show").removeClass('show');
          $(this).hide();
    

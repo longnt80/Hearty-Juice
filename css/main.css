@@ -455,6 +455,13 @@ hr {
     font-weight: 500;
     line-height: 50vmin; }
 
+.sub-banner {
+  background-color: #468a3a; }
+  .sub-banner h1 {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0.5em 0.5em; }
+
 @media screen and (min-width: 780px) {
   .banner {
     height: 50vmin; } }
@@ -463,7 +470,14 @@ hr {
     text-align: center;
     color: #fff;
     font-size: 4em;
-    line-height: 50vmin; } }
+    line-height: 50vmin; }
+
+  .sub-banner {
+    background-color: #468a3a; }
+    .sub-banner h1 {
+      color: #fff;
+      font-size: 4em;
+      padding: 0.5em 0.5em; } }
 @media screen and (min-width: 1440px) {
   .banner h2 {
     font-size: 6em; } }

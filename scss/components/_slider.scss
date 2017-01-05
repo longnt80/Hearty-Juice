@@ -31,6 +31,16 @@
 	}
 }
 
+.sub-banner {
+	background-color: $quaternary-color;
+
+	h1 {
+		color: #fff;
+		font-size: 1.5em;
+		padding: 0.5em 0.5em;
+	}
+}
+
 
 // Responsive styles if needed
 // @include responsive($big-break) {
@@ -60,6 +70,16 @@
 			line-height: 50vmin;
 		}
 	}
+
+	.sub-banner {
+	background-color: $quaternary-color;
+
+	h1 {
+		color: #fff;
+		font-size: 4em;
+		padding: 0.5em 0.5em;
+	}
+}
 
 }
 
