@@ -10,15 +10,14 @@ $(document).ready(function() {
 
   
 
-  $('nav ul li > a').on("click",function(e){
+  $('nav ul li ').on("click",function(){
     
-    e.preventDefault();
+    // e.preventDefault();
     $(this)
-        .next()
+        .find('ul')
         .toggleClass('open');
     $(this)
-        .closest('li')   // Turn off othe sub menu
-        .siblings()
+        .siblings()  // Turn off othe sub menu
         .find('ul')
         .removeClass('open');
 
