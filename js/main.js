@@ -38,4 +38,10 @@ $(document).ready(function() {
    
    });
 
+       // check all the element needed to animated to hide them
+       $('.animated-element').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100
+       });
+
 });
