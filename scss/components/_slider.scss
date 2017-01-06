@@ -2,7 +2,7 @@
 // Logo Styles
 //**
 .banner {
-	height: 50vmin;
+	height:200px;
 	background: transparent url("../images/banner002.jpg") no-repeat center 70%;
 	background-size: cover;
 
@@ -27,7 +27,7 @@
 		position: relative;
 		margin: 0;
 		font-weight: 500;
-		line-height: 50vmin;
+		line-height: 200px; /* same with banner height*/
 	}
 }
 
@@ -42,44 +42,31 @@
 }
 
 
-// Responsive styles if needed
-// @include responsive($big-break) {
-// }
-// @include responsive($small-break) {
-// }
 
-// Mobile first styles if needed
-// @include mobilefirst($big-break) {
-// }
-@include mobilefirst($big-break) {
-	.banner {
-		height: 50vmin;
-	}
-
-}
 
 @include mobilefirst($small-break) {
 
 	.banner {
 
+		height: 500px;
+
 		h2 {
 			text-align: center;
 			color: #fff;
 			font-size: 4em;
-			// top: 40%;
-			line-height: 50vmin;
+			line-height: 500px; /* same with banner height*/
 		}
 	}
 
 	.sub-banner {
-	background-color: $quaternary-color;
+		background-color: $quaternary-color;
 
-	h1 {
-		color: #fff;
-		font-size: 4em;
-		padding: 0.5em 0.5em;
+		h1 {
+			color: #fff;
+			font-size: 4em;
+			padding: 0.5em 0.5em;
+		}
 	}
-}
 
 }
 

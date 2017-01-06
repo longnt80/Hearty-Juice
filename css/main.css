@@ -434,7 +434,7 @@ hr {
   .site-logo img {
     width: 10em; } }
 .banner {
-  height: 50vmin;
+  height: 200px;
   background: transparent url("../images/banner002.jpg") no-repeat center 70%;
   background-size: cover; }
   .banner .overlay {
@@ -453,7 +453,8 @@ hr {
     position: relative;
     margin: 0;
     font-weight: 500;
-    line-height: 50vmin; }
+    line-height: 200px;
+    /* same with banner height*/ }
 
 .sub-banner {
   background-color: #468a3a; }
@@ -462,15 +463,15 @@ hr {
     font-size: 1.5em;
     padding: 0.5em 0.5em; }
 
-@media screen and (min-width: 780px) {
-  .banner {
-    height: 50vmin; } }
 @media screen and (min-width: 480px) {
-  .banner h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 4em;
-    line-height: 50vmin; }
+  .banner {
+    height: 500px; }
+    .banner h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 4em;
+      line-height: 500px;
+      /* same with banner height*/ }
 
   .sub-banner {
     background-color: #468a3a; }
