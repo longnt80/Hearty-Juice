@@ -496,17 +496,20 @@ footer {
 @media screen and (min-width: 480px) {
   footer {
     margin: 100px 0px 0px; } }
-.our-difference {
+.emphasized-bg {
   padding: 40px;
   background-color: #58ba47;
   color: #fff;
   text-align: center; }
-  .our-difference h2 {
+  .emphasized-bg h1, .emphasized-bg h2, .emphasized-bg h3, .emphasized-bg h4, .emphasized-bg h5 {
     color: #fff; }
-
-.our-promise img {
-  width: 100%;
-  height: auto; }
+  .emphasized-bg a {
+    color: #fff200; }
+  .emphasized-bg ul {
+    display: table;
+    margin: 0 auto; }
+    .emphasized-bg ul li {
+      text-align: left; }
 
 .main-content {
   max-width: 80%;
@@ -524,6 +527,10 @@ footer {
 
 .visible {
   opacity: 1; }
+
+img {
+  width: 100%;
+  height: auto; }
 
 @media screen and (min-width: 480px) {
   .main-content {
