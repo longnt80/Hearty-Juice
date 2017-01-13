@@ -457,7 +457,8 @@ hr {
     /* same with banner height*/ }
 
 .sub-banner {
-  background-color: #468a3a; }
+  background-color: #468a3a;
+  margin-bottom: 40px; }
   .sub-banner h1 {
     color: #fff;
     font-size: 1.5em;
