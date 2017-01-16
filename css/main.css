@@ -515,6 +515,20 @@ footer {
 h2 > a {
   text-decoration: none; }
 
+.circle {
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+  .circle img {
+    width: 100%;
+    height: auto;
+    display: block; }
+
+@media screen and (min-width: 480px) {
+  .circle {
+    width: 200px; } }
 .main-content {
   max-width: 80%;
   margin: 0 auto; }

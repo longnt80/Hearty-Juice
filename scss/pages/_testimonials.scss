@@ -1,0 +1,21 @@
+.circle {
+	width:40%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+@include mobilefirst($small-break) {
+
+.circle {
+	width: 200px;
+}
+
+}
