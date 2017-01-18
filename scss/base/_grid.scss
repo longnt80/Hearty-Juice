@@ -81,7 +81,7 @@
 }
 
 
-@include responsive($big-break) {
+@include responsive($small-break) {
   .container {
       padding: 0px;
   }

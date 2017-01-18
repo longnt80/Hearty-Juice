@@ -35,9 +35,9 @@ img {
 
 
 @include mobilefirst($small-break) {
-	
+
 	.main-content {
-		max-width: 100%;	
+		max-width: 100%;
 	}
 
 	.spacer {
@@ -63,8 +63,5 @@ img {
 		}
 	}
 
-	img {
-		width: auto;
-	}
 
 }

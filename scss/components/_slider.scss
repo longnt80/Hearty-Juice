@@ -35,10 +35,15 @@
 	background-color: $quaternary-color;
 	margin-bottom: 40px;
 
+	.marketing-text {
+		width: 80%;
+		margin: 0 auto;
+	}
+
 	h1 {
 		color: #fff;
 		font-size: 1.5em;
-		padding: 0.5em 0.5em;
+		padding: 0.5em 0;
 	}
 }
 
@@ -62,10 +67,15 @@
 	.sub-banner {
 		background-color: $quaternary-color;
 
+		.marketing-text {
+			width: 100%;
+		}
+
 		h1 {
 			color: #fff;
 			font-size: 4em;
-			padding: 0.5em 0.5em;
+			padding: 0.5em 0;
+			padding-left: $margin; //2.1277%;
 		}
 	}
 
