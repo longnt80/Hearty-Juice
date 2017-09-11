@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteBase /vi/
+
+RewriteRule ^trang-chu/?$    index.php    [NC,L]   
+RewriteRule ^ve-hearty-juice/?$    about-hearty-juice.php    [NC,L]   
+RewriteRule ^nguoi-sang-lap/?$    about-the-founder.php    [NC,L]   
+RewriteRule ^diem-khac-biet/?$    our-difference.php    [NC,L]   
+RewriteRule ^cam-ket/?$    our-promise.php    [NC,L]   
+RewriteRule ^chia-se-khach-hang/?$    testimonials.php    [NC,L]   
+RewriteRule ^co-hoi-nghe-nghiep/?$    careers.php    [NC,L]   

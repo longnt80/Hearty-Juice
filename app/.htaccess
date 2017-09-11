@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^home/?$    index.php    [NC,L]    
+RewriteRule ^about-hearty-juice/?$    about-hearty-juice.php    [NC,L]
+RewriteRule ^about-the-founder/?$    about-the-founder.php    [NC,L]
+RewriteRule ^our-difference/?$    our-difference.php    [NC,L]
+RewriteRule ^our-promise/?$    our-promise.php    [NC,L]
+RewriteRule ^testimonials/?$    testimonials.php    [NC,L]
+RewriteRule ^careers/?$    careers.php    [NC,L]

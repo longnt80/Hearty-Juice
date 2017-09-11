@@ -1,0 +1,93 @@
+//**
+// Logo Styles
+//**
+.banner {
+	height:200px;
+	background: transparent url("../images/banner002.jpg") no-repeat center 70%;
+	background-size: cover;
+
+	.overlay {
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.marketing-text {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+
+	h2 {
+		text-align: center;
+		color: #fff;
+		font-family: Pacifico, sans-serif;
+		font-size: 1.5em;
+		position: relative;
+		margin: 0;
+		font-weight: 500;
+		line-height: 200px; /* same with banner height*/
+	}
+}
+
+.sub-banner {
+	background-color: $quaternary-color;
+	margin-bottom: 40px;
+
+	.marketing-text {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	h1 {
+		color: #fff;
+		font-size: 1.5em;
+		padding: 0.5em 0;
+	}
+}
+
+
+
+
+@include mobilefirst($small-break) {
+
+	.banner {
+
+		height: 500px;
+
+		h2 {
+			text-align: center;
+			color: #fff;
+			font-size: 4em;
+			line-height: 500px; /* same with banner height*/
+		}
+	}
+
+	.sub-banner {
+		background-color: $quaternary-color;
+
+		.marketing-text {
+			width: 100%;
+		}
+
+		h1 {
+			color: #fff;
+			font-size: 4em;
+			padding: 0.5em 0;
+			padding-left: $margin; //2.1277%;
+		}
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.banner {
+
+		h2 {
+			font-size: 6em;
+		}
+	}
+
+}

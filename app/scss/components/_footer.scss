@@ -1,0 +1,25 @@
+footer {
+
+	margin: 50px 0px 0px;
+	border-top: 1px solid #aaa;
+	text-align: center;
+
+	.footer-content {
+		max-width: $mobile-padding;
+		padding: 20px 0px 0px;
+	}
+
+	.disclaimer {
+		color: $subtle-color;
+		font-size: 0.8em;
+	}
+	
+}
+
+@include mobilefirst($small-break) {
+	footer {
+
+		margin: 100px 0px 0px;
+		
+	}
+}
