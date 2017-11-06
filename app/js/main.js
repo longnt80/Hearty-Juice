@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  
   // Close all sub menu when click the toggle Menu button
   $('a.mobile-toggle').on('click',function(){
 
@@ -31,9 +31,9 @@ $(document).ready(function() {
   });
 
   // check all the element needed to animated to hide them
-  $('.animated-element').addClass("hidden").viewportChecker({
-    classToAdd: 'visible animated fadeIn',
-    offset: 100
-  });
+  // $('.animated-element').addClass("hidden").viewportChecker({
+  //   classToAdd: 'visible animated fadeIn',
+  //   offset: 100
+  // });
 
 });
